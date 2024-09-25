@@ -1,4 +1,4 @@
-BATTinfo OPEN is a simple batch script that shows some info about the battery installed in your laptop, and allows you to generate a report with in-depth battery info.
+BATTinfo OPEN is a user-friendly batch script designed to provide detailed insights into the battery installed in your laptop. With this tool, you can easily view essential battery information and generate comprehensive reports, offering an in-depth analysis of your battery's health.
 
 # License Declaration for BATTinfo OPEN
 
