@@ -1,13 +1,13 @@
 @echo off
 title BATTinfo OPEN
 
-echo  openopenopenopenopenopenopenopenopenopenopenopenopenopenopenopenopenopenopenopenopenopen
-echo  = BBBBB  AAAAA TTTTTT TTTTTT III  N   N  FFFFF  OOO        OOO   PPPPP  EEEEE  N   N  =
-echo  = B   B  A   A   TT     TT    I   NN  N  F     O   O      O   O  P   P  E      NN  N  =
-echo  = BBBBB  AAAAA   TT     TT    I   N N N  FFFF  O   O      O   O  PPPPP  EEE    N N N  =
-echo  = B   B  A   A   TT     TT    I   N  NN  F     O   O      O   O  P      E      N  NN  =
-echo  = BBBBB  A   A   TT     TT   III  N   N  F      OOO        OOO   P      EEEEE  N   N  =
-echo  openopenopenopenopenopenopenopenopenopenopenopenopenopenopenopenopenopenopenopenopenopen
+echo   accessible-available-unrestricted-unlimited-unlocked-unhindered-exposed-unconstrained
+echo  X BBBBB  AAAAA TTTTTT TTTTTT III  N   N  FFFFF  OOO        OOO   PPPPP  EEEEE  N   N  X
+echo  X B   B  A   A   TT     TT    I   NN  N  F     O   O      O   O  P   P  E      NN  N  X
+echo  X BBBBB  AAAAA   TT     TT    I   N N N  FFFF  O   O      O   O  PPPPP  EEE    N N N  X
+echo  X B   B  A   A   TT     TT    I   N  NN  F     O   O      O   O  P      E      N  NN  X
+echo  X BBBBB  A   A   TT     TT   III  N   N  F      OOO        OOO   P      EEEEE  N   N  X
+echo   accessible-available-unrestricted-unlimited-unlocked-unhindered-exposed-unconstrained
 echo.
 setlocal EnableDelayedExpansion
 
@@ -36,10 +36,10 @@ for /f "tokens=2 delims==" %%I in ('wmic path Win32_Battery get EstimatedRunTime
     set EstimatedTime=%%I
 )
 
-echo ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+echo openopenopenopenopenopenopenopenopenopenopenopenopenopenopenopenopen
 echo Battery Status: %BatteryStatus%
 echo Battery Level: %BatteryLevel%%% (%EstimatedTime% minutes remaining)
-echo ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+echo openopenopenopenopenopenopenopenopenopenopenopenopenopenopenopenopen
 echo.
 
 set /p Confirm=Do you want to generate a battery report? (Y/N): 
@@ -51,9 +51,9 @@ if "!SaveDir!"=="" set SaveDir=C:
 
 powercfg /batteryreport /output "%SaveDir%\battery_report.html"
 
-echo >>>>>>>
+echo ~~~~~~~
 echo D O N E
-echo <<<<<<<
+echo ~~~~~~~
 
 set /p ConfirmLocation=Do you want to open the directory of the saved report? (Y/N): 
 if /i "!ConfirmLocation!" equ "Y" (
