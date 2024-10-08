@@ -6,3 +6,5 @@ BATTinfo OPEN is a user-friendly batch script designed to provide detailed insig
 
 ### License for BATTinfo OPEN:
 **BATTinfo OPEN** is released under **The Unlicense**, a public domain license that grants users complete freedom to use, modify, and distribute the software without restriction. The full text of The Unlicense is included in the LICENCE tab.
+
+### Dual-Batteries are **NOT** supported. Feel free to fork the app if you want to add that functionality :p
