@@ -1,5 +1,5 @@
 # BATTinfo OPEN is a user-friendly batch script designed to provide detailed insights into the battery installed in your laptop. With this tool, you can easily view essential battery information and generate comprehensive reports, offering an in-depth analysis of your battery's health.
-# Important: No longer maintained. Move to VOXL-BATT instead, link will be available soon!
+## Important: No longer maintained. Move to VOXL-BATT instead: https://github.com/Voxelapp-Software/voxl-batt
 
 ![battinfooglogo](https://github.com/user-attachments/assets/7c5c0e65-3781-45ab-afb1-c0c613f06de1)
 
